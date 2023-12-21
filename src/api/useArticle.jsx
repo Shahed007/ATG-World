@@ -6,7 +6,9 @@ const useArticle = (filter) => {
 
   useEffect(() => {
     const getArticle = async () => {
-      const res = await fetch("/article.json");
+      const res = await fetch(
+        "https://raw.githubusercontent.com/Shahed007/asets/main/article.json"
+      );
       const data = await res.json();
       setArticles(data);
     };

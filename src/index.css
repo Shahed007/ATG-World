@@ -24,6 +24,9 @@ body {
 }
 
 /* Custom CSS */
+.text-color-primary {
+  color: var(--text-color-primary);
+}
 .h-7 {
   height: 7.2rem !important;
 }
@@ -145,6 +148,47 @@ body {
   font-size: 1.6rem;
 }
 
+.card-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--text-color-primary);
+}
+
+.card-text {
+  font-size: 1.9rem;
+  color: #5c5c5c;
+}
+
+.card .author_img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.card .btn-share {
+  background-color: var(--secondary-color);
+  padding: 1.1rem 1.2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .view {
+  font-size: 1.4rem;
+  color: #525252;
+}
+
+.card .details-button {
+  width: 40px;
+  height: 40px;
+}
+
+.card .card-body .date {
+  margin-right: 10rem;
+}
+
 @media screen and (min-width: 768px) {
   .main-navbar form {
     width: 40%;
@@ -165,5 +209,21 @@ body {
 @media screen and (max-width: 576px) {
   .hero-section .hero-section-text-box {
     padding: 0rem 0rem 15rem 0rem !important;
+  }
+
+  .card .card-body .date {
+    margin-right: 1rem;
+  }
+
+  .font-size-14 {
+    font-size: 1.4rem !important;
+  }
+
+  .font-size-26 {
+    font-size: 1.6rem !important;
+  }
+
+  html{
+    font-size: 50.5% !important;
   }
 }
