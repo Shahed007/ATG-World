@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
 
+:root {
+  --primary-color: #2f6ce5;
+  --secondary-color: #edeef0;
+  --text-color-primary: #000;
+  --text-color-secondary: #8a8a8a;
+}
+
 *::before,
 *::after * {
   margin: 0;
@@ -8,9 +15,50 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5% !important;
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+/* Custom CSS */
+.h-7 {
+  height: 7.2rem !important;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+.main-navbar .form-control {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 4.5rem !important;
+  border-radius: 2rem !important;
+  background-color: #f2f2f2 !important;
+  font-size: 1.4rem;
+}
+
+.main-navbar form {
+  width: 75%;
+}
+
+.main-navbar .search-icon {
+  z-index: 100 !important;
+  font-size: 2rem;
+  top: 10%;
+  left: 5%;
+}
+
+.shadow-lg {
+  box-shadow: 4px 13px 14px -6px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 4px 13px 14px -6px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 4px 13px 14px -6px rgba(0, 0, 0, 0.46);
+}
+
+@media screen and (min-width: 768px) {
+  .main-navbar form {
+    width: 40%;
+  }
 }
