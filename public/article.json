@@ -1,0 +1,57 @@
+[
+  {
+    "category": "article",
+    "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+    "description": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "date": "2023-03-15",
+    "author_image": "https://i.ibb.co/Lkdcx8j/article-image-1.webp",
+    "author_name": "Sarthak Kamra",
+    "views": "1.4 K",
+    "article_image": "https://i.ibb.co/Lkdcx8j/article-image-1.webp"
+  },
+
+  {
+    "category": "education",
+    "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "description": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "date": "2023-04-10",
+    "author_image": "https://i.ibb.co/dpTfHXh/person-2.png",
+    "author_name": "Sarah West",
+    "views": "1.4 K",
+    "article_image": "https://i.ibb.co/Lkdcx8j/article-image-1.webp"
+  },
+
+  {
+    "category": "meetup",
+    "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+    "date": "2023-08-28",
+    "author_image": "https://i.ibb.co/4sfyzMr/person-3.png",
+    "author_name": "Ronal Jones",
+    "views": "1.4 K",
+    "location": "Ahmedabad, India",
+    "button-text": "Visit Website"
+  },
+
+  {
+    "category": "job",
+    "title": "Software Developer",
+    "description": "Exciting opportunity for a skilled full-stack software engineer to join a dynamic tech company. Apply now!",
+    "date": "2023-09-10",
+    "author_image": "https://example.com/authors/david_wilson.jpg",
+    "author_name": "David Wilson",
+    "views": "1.4 K",
+    "analytics": "Innovaccer Analytics Private Ltd.",
+    "button-text": "Apply on Timesjobs"
+  },
+
+  {
+    "category": "event",
+    "title": "Tech Expo 2023",
+    "description": "Experience the latest in technology innovation at Tech Expo 2023. Explore cutting-edge products, attend tech talks, and engage with industry leaders.",
+    "date": "2023-10-05",
+    "author_image": "https://i.ibb.co/MSsSHjW/microsoft-365-7m-Bict-B-urk-unsplash.jpg",
+    "author_name": "Lisa Jones",
+    "views": "1.4 K",
+    "article_image": "https://i.ibb.co/XYVXNtD/pablo-heimplatz-ZODc-Bk-Eohk8-unsplash.jpg"
+  }
+]

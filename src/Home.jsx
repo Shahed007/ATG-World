@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
+import Article from "./components/Article";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Article></Article>
     </main>
   );
 };

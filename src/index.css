@@ -94,6 +94,57 @@ body {
   font-weight: 400 !important;
 }
 
+/* Article Section */
+.article-section {
+  margin: 4.7rem 0rem 2.8rem 0rem;
+}
+
+.article-section .nav .nav-link {
+  color: var(--text-color-secondary) !important;
+  font-size: 1.6rem;
+}
+
+.article-section .nav .nav-item .active {
+  color: var(--text-color-primary) !important;
+  /* border-bottom: 2px solid var(--text-color-primary); */
+  padding-bottom: 1.6rem;
+  position: relative;
+}
+
+.article-section .nav .nav-item .active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  background-color: var(--text-color-primary);
+  bottom: -3px;
+  left: 0px;
+}
+
+.article-section .article-section-tab .btn-light {
+  background-color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-color-primary);
+}
+
+.article-section .article-section-tab .btn-primary {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.article-section .article-section-mobile-tab .btn-light {
+  background-color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-color-primary);
+}
+
+.article-section .article-section-mobile-tab ul {
+  font-size: 1.6rem;
+}
+
 @media screen and (min-width: 768px) {
   .main-navbar form {
     width: 40%;
